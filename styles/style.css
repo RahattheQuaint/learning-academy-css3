@@ -107,12 +107,32 @@ main {
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
     background: #FFFFFF;
+    padding: 4px;
+
+
+
 }
+
+.course {
+    width: 254px;
+    height: 270px;
+    filter: box-shadow(5px 0 5px 10px rgba(0, 0, 0, 0.11));
+
+
+
+}
+
+
 
 .course img {
     width: 224px;
     height: 104px;
 }
+
+/* .course-banner {
+    width: 253px;
+
+} */
 
 .course-maker {
     color: rgba(237, 107, 79, 1);

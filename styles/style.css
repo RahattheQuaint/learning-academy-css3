@@ -17,12 +17,15 @@ main {
 .container {
     background-color: #FFFFFF;
     width: 870px;
-    /* height: 679px; */
+
     padding: 33px 30px 33px 30px;
     border-radius: 10px;
     margin-bottom: 18.5px;
 }
 
+/* ......................
+section1-first part
+.......................... */
 .top-teacher {
     margin-bottom: 30px;
 }
@@ -59,6 +62,9 @@ main {
     margin-bottom: 30px;
 }
 
+/*...............
+ section1-secondpart
+    ................. */
 .top-blogs {
     margin: 47px 55px 45px 50px;
 }
@@ -102,7 +108,7 @@ main {
 
 /* latest course */
 .courses {
-    /* display: flex; */
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
@@ -129,10 +135,7 @@ main {
     height: 104px;
 }
 
-/* .course-banner {
-    width: 253px;
 
-} */
 
 .course-maker {
     color: rgba(237, 107, 79, 1);
@@ -180,6 +183,7 @@ main {
 
 /* media queary */
 /* mobile device */
+
 @media only screen and (max-width:688px) {
     .container {
         width: 100%;
@@ -205,6 +209,7 @@ main {
 }
 
 /* tablet devices */
+
 @media only screen and (min-width:689px) and (max-width:992px) {
     .container {
         width: 100%;
